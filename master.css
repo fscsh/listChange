@@ -28,10 +28,17 @@ ul{
     background: url("listype-icon.png") no-repeat;
     cursor: pointer;
 }
-.changelist .list-1{
+.changelist .list-1-0{
     height: 240px;
     width: 240px;
     float: left;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+.changelist .list-2-0{
+    height: 200px;
+    /*text-align: center;*/
+}
+.content{
+    margin-top: 10px;
 }
