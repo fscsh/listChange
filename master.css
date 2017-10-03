@@ -1,26 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.box{
+
+body {
+    background-color: #4C4C4C;
+}
+
+.box {
     width: 800px;
     height: auto;
     margin: 0 auto;
 }
-.list-box{
-    margin: 0 auto;;
+
+.list-box {
+    margin: 0 auto;
+    ;
     width: 700;
     height: 40px;
     border-bottom: 1px solid #eee;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.list{
+
+.list {
     float: right;
     padding-top: 10px;
 }
-.list-box ul li{
+
+.list-box ul li {
     width: 30px;
     height: 26px;
     float: left;
@@ -28,17 +38,28 @@ ul{
     background: url("listype-icon.png") no-repeat;
     cursor: pointer;
 }
-.changelist .list-1-0{
+
+.changelist .list-1-0 {
     height: 240px;
     width: 240px;
     float: left;
     margin-left: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 31px;
+    color: wheat;
 }
-.changelist .list-2-0{
+
+.changelist .list-2-0 {
     height: 200px;
+        color: wheat;
+        font-family: fantasy;
+        font-size: 31px;
+        justify-content: center;
     /*text-align: center;*/
 }
-.content{
+
+.content {
     margin-top: 10px;
 }
